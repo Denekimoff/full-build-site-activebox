@@ -6,6 +6,10 @@
   list-style-type: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Raleway, serif;
 }
@@ -51,7 +55,7 @@ body {
 }
 
 .header__item:hover {
-  border-bottom: 3px solid #babbc5;
+  border-bottom: 2px solid #babbc5;
 }
 
 .header__item:active {
@@ -892,7 +896,7 @@ body {
   }
 
   .header__body {
-    border: none;
+    border-bottom: 0;
   }
 
   .header__nav {
